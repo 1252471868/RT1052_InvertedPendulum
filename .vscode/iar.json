@@ -1,0 +1,7 @@
+{
+    "version": 1,
+    "path": "C:/Program Files (x86)/IAR Systems/Embedded Workbench 8.3/",
+    "project":"E:/code/RT1052_InvertedPendulum/Example/example/iar/IMXRT1052.ewp",
+    "config": "release",
+    "parallel" : true
+}

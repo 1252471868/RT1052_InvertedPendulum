@@ -1,0 +1,5 @@
+ffunicode.pbi: \
+  E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source\ffunicode.c \
+  E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source/ff.h \
+  E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source/integer.h \
+  E:\code\RT1052_InvertedPendulum\Example\example\iar\..\sd\ffconf.h

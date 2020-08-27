@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<settings>
+    <DebugChecksum>
+        <Checksum>3180746709</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+        <HideCovered>0</HideCovered>
+    </CodeCoverage>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>72000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>4000000</ClockWanted>
+        <JtagSpeed>4000000</JtagSpeed>
+        <Prescaler>18</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <Jet>
+        <OnlineReset>Software</OnlineReset>
+        <JetConnSerialNo>DAPLink CMSIS-DAP:0227000024404e450055000dffff001bffffffff97969900</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <PrevWtdReset>Hardware</PrevWtdReset>
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CONFIG\debugger\NXP\MIMXRT1052xxx6B.ddf</MemConfigValue>
+    </PlDriver>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <SWOManager>
+        <SamplingDivider>8192</SamplingDivider>
+        <OverrideClock>0</OverrideClock>
+        <CpuClock>0</CpuClock>
+        <SwoClock>0</SwoClock>
+        <DataLogMode>0</DataLogMode>
+        <ItmPortsEnabled>63</ItmPortsEnabled>
+        <ItmTermIOPorts>1</ItmTermIOPorts>
+        <ItmLogPorts>0</ItmLogPorts>
+        <ItmLogFile>$PROJ_DIR$\ITM.log</ItmLogFile>
+        <PowerForcePC>1</PowerForcePC>
+        <PowerConnectPC>1</PowerConnectPC>
+    </SWOManager>
+    <InterruptStripe>
+        <Sort>1</Sort>
+    </InterruptStripe>
+    <PlDdfRanges>
+        <ConfigRanges0>Memory CM7_PPB 3758096384 1048576 2</ConfigRanges0>
+        <ConfigRanges1>Memory ExtDevice 2147483648 1610612736 2</ConfigRanges1>
+        <ConfigRanges2>Memory FlexSPI_IP 2139095040 8388608 2</ConfigRanges2>
+        <ConfigRanges3>Memory FlexSPI 1610612736 528482304 1</ConfigRanges3>
+        <ConfigRanges4>Memory GPV_3 1094713344 1048576 2</ConfigRanges4>
+        <ConfigRanges5>Memory GPV_2 1091567616 1048576 2</ConfigRanges5>
+        <ConfigRanges6>Memory GPV_1 1090519040 1048576 2</ConfigRanges6>
+        <ConfigRanges7>Memory Periph19 1077788672 147456 2</ConfigRanges7>
+        <ConfigRanges8>Memory Periph18 1077608448 163840 2</ConfigRanges8>
+        <ConfigRanges9>Memory Periph17 1077493760 65536 2</ConfigRanges9>
+        <ConfigRanges10>Memory Periph16 1077395456 81920 2</ConfigRanges10>
+        <ConfigRanges11>Memory Periph15 1076871168 16384 2</ConfigRanges11>
+        <ConfigRanges12>Memory Periph14 1076822016 16384 2</ConfigRanges12>
+        <ConfigRanges13>Memory Periph13 1076723712 49152 2</ConfigRanges13>
+        <ConfigRanges14>Memory Periph12 1076576256 81920 2</ConfigRanges14>
+        <ConfigRanges15>Memory Periph11 1076527104 16384 2</ConfigRanges15>
+        <ConfigRanges16>Memory Periph10 1076346880 16384 2</ConfigRanges16>
+        <ConfigRanges17>Memory Periph9 1075691520 147456 2</ConfigRanges17>
+        <ConfigRanges18>Memory Periph8 1075642368 32768 2</ConfigRanges18>
+        <ConfigRanges19>Memory Periph7 1075544064 65536 2</ConfigRanges19>
+        <ConfigRanges20>Memory Periph6 1075494912 32768 2</ConfigRanges20>
+        <ConfigRanges21>Memory Periph5 1075298304 163840 2</ConfigRanges21>
+        <ConfigRanges22>Memory Periph4 1074741248 49152 2</ConfigRanges22>
+        <ConfigRanges23>Memory Periph3 1074413568 311296 2</ConfigRanges23>
+        <ConfigRanges24>Memory Periph2 1074331648 32768 2</ConfigRanges24>
+        <ConfigRanges25>Memory Periph1 1074249728 49152 2</ConfigRanges25>
+        <ConfigRanges26>Memory OCRAM 538968064 524288 0</ConfigRanges26>
+        <ConfigRanges27>Memory DTCM 536870912 524288 0</ConfigRanges27>
+        <ConfigRanges28>Memory ROMCP 2097152 98304 1</ConfigRanges28>
+        <ConfigRanges29>Memory ITCM 0 524288 0</ConfigRanges29>
+    </PlDdfRanges>
+    <PlCacheRanges>
+        <CustomRanges0>0 0 524288 0 0</CustomRanges0>
+        <CustomRangesText0 />
+        <CustomRanges1>0 2097152 98304 1 0</CustomRanges1>
+        <CustomRangesText1 />
+        <CustomRanges2>0 536870912 524288 0 0</CustomRanges2>
+        <CustomRangesText2 />
+        <CustomRanges3>0 538968064 524288 0 0</CustomRanges3>
+        <CustomRangesText3 />
+        <CustomRanges4>0 1074249728 49152 2 0</CustomRanges4>
+        <CustomRangesText4 />
+        <CustomRanges5>0 1074331648 32768 2 0</CustomRanges5>
+        <CustomRangesText5 />
+        <CustomRanges6>0 1074413568 311296 2 0</CustomRanges6>
+        <CustomRangesText6 />
+        <CustomRanges7>0 1074741248 49152 2 0</CustomRanges7>
+        <CustomRangesText7 />
+        <CustomRanges8>0 1075298304 163840 2 0</CustomRanges8>
+        <CustomRangesText8 />
+        <CustomRanges9>0 1075494912 32768 2 0</CustomRanges9>
+        <CustomRangesText9 />
+        <CustomRanges10>0 1075544064 65536 2 0</CustomRanges10>
+        <CustomRangesText10 />
+        <CustomRanges11>0 1075642368 32768 2 0</CustomRanges11>
+        <CustomRangesText11 />
+        <CustomRanges12>0 1075691520 147456 2 0</CustomRanges12>
+        <CustomRangesText12 />
+        <CustomRanges13>0 1076346880 16384 2 0</CustomRanges13>
+        <CustomRangesText13 />
+        <CustomRanges14>0 1076527104 16384 2 0</CustomRanges14>
+        <CustomRangesText14 />
+        <CustomRanges15>0 1076576256 81920 2 0</CustomRanges15>
+        <CustomRangesText15 />
+        <CustomRanges16>0 1076723712 49152 2 0</CustomRanges16>
+        <CustomRangesText16 />
+        <CustomRanges17>0 1076822016 16384 2 0</CustomRanges17>
+        <CustomRangesText17 />
+        <CustomRanges18>0 1076871168 16384 2 0</CustomRanges18>
+        <CustomRangesText18 />
+        <CustomRanges19>0 1077395456 81920 2 0</CustomRanges19>
+        <CustomRangesText19 />
+        <CustomRanges20>0 1077493760 65536 2 0</CustomRanges20>
+        <CustomRangesText20 />
+        <CustomRanges21>0 1077608448 163840 2 0</CustomRanges21>
+        <CustomRangesText21 />
+        <CustomRanges22>0 1077788672 147456 2 0</CustomRanges22>
+        <CustomRangesText22 />
+        <CustomRanges23>0 1090519040 1048576 2 0</CustomRanges23>
+        <CustomRangesText23 />
+        <CustomRanges24>0 1091567616 1048576 2 0</CustomRanges24>
+        <CustomRangesText24 />
+        <CustomRanges25>0 1094713344 1048576 2 0</CustomRanges25>
+        <CustomRangesText25 />
+        <CustomRanges26>0 1610612736 528482304 1 0</CustomRanges26>
+        <CustomRangesText26 />
+        <CustomRanges27>0 2139095040 8388608 2 0</CustomRanges27>
+        <CustomRangesText27 />
+        <CustomRanges28>0 2147483648 1610612736 2 0</CustomRanges28>
+        <CustomRangesText28 />
+        <CustomRanges29>0 3758096384 1048576 2 0</CustomRanges29>
+        <CustomRangesText29 />
+    </PlCacheRanges>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <ETMTraceWindow>
+        <PortWidth>4</PortWidth>
+        <PortMode>0</PortMode>
+        <CaptureDataValues>0</CaptureDataValues>
+        <CaptureDataAddresses>0</CaptureDataAddresses>
+        <CaptureDataRange>0</CaptureDataRange>
+        <DataFirst>0</DataFirst>
+        <DataLast>4294967295</DataLast>
+        <StopWhen>0</StopWhen>
+        <StallCPU>0</StallCPU>
+        <NoPCCapture>0</NoPCCapture>
+    </ETMTraceWindow>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <PowerLog>
+        <Title_0>I0</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>I0</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c}.493.9" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c}.493.9" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c}.482.5" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c}.483.9" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\irq.c}.242.1" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\irq.c}.198.5" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\main.c}.189.1" 0 0 1 "" 0 "" 0</Bp6>
+        <Count>7</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\86182\Desktop\Info\RT1052\6 1052-example\Device\drivers\LQRT1052\LQ_LED.c" "E:\code\RT1052\Device\drivers\LQRT1052\LQ_LED.c"</A0>
+        <A1>_ "C:\Users\86182\Desktop\Info\RT1052\6 1052-example\Device\startup\iar\startup_MIMXRT1052_iar.s" "E:\code\RT1052\Device\startup\iar\startup_MIMXRT1052_iar.s"</A1>
+        <Count>2</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

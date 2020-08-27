@@ -1,0 +1,2456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3171643587</fileChecksum>
+    <configuration>
+        <name>release</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_IIC.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Encoder.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ICM20602.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_LED.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PIT.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ANO_DT.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO_Cfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_12864SPI.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ICM20602_SOFTSPI.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ADC.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPT.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_KEY.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_LED.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PIT.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PWM.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ANO_DT.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ICM20602_SOFTSPI.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PWM.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_12864.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_KEY.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\integer.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ADC.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ICM20602.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Encoder.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPT.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\fsl_sd_disk\fsl_sd_disk.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_IIC.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbarb.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\diskio.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pit.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_usdhc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_rtwdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbara.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\diskio.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ff.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_tempmon.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ffsystem.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbarb.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart_edma.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ff.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ffunicode.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pit.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pwm.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart_edma.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_trng.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_video_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_tempmon.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_trng.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pwm.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_wdog.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_rtwdog.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_wdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_usdhc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbara.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\src\fsl_sd.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SPI.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_TRNG.h</file>
+            <file>$PROJ_DIR$\..\sd\fsl_sdmmc_event.h</file>
+            <file>$PROJ_DIR$\..\sd\fsl_sdmmc_host.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SPI.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SDCard.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Rtwdog.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_QTMR.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Tempmon.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART_DMA.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\inc\fsl_sdmmc_common.h</file>
+            <file>$PROJ_DIR$\..\sd\fsl_sdmmc_event.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\inc\fsl_sdmmc_host.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART_DMA.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_W25Q128.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Tempmon.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\inc\fsl_sd.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SOFTIIC.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_WDog.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Rtwdog.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SDCard.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SOFTIIC.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_TRNG.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_W25Q128.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_WDog.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_QTMR.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\src\fsl_sdmmc_common.c</file>
+            <file>$PROJ_DIR$\..\User\ADC_DMA.c</file>
+            <file>$PROJ_DIR$\..\User\GP2Y0A.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\system_MIMXRT1052.h</file>
+            <file>$PROJ_DIR$\..\User\MIDI.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\startup\iar\startup_MIMXRT1052_iar.s</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\serial_manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\serial_port_uart.c</file>
+            <file>$PROJ_DIR$\..\include.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\serial_port_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\fsl_str.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\xip\external_flash_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\inc\fsl_sdmmc_spec.h</file>
+            <file>$PROJ_DIR$\..\sd\ffconf.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\system_MIMXRT1052.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console.c</file>
+            <file>$PROJ_DIR$\..\include_all.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console_conf.h</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\lpuart_adapter.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\serial_manager.c</file>
+            <file>$PROJ_DIR$\..\irq.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\fsl_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\xip\fsl_flexspi_nor_boot.c</file>
+            <file>$PROJ_DIR$\..\User\ADC_DMA.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\utilities\fsl_str.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\xip\fsl_flexspi_nor_boot.h</file>
+            <file>$PROJ_DIR$\..\User\MIDI.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\xip\xip_config.c</file>
+            <file>$PROJ_DIR$\..\User\GP2Y0A.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_cache.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\Matrix.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\irq.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_edma.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_gpio.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_pwm.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_cache.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_W25Q128.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_flexspi.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sd_disk.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_flexspi_nor_boot.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_UART.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_xbara.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Device\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_qtmr.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\diskio.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ff.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_clock.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_str.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\CMSIS\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\release\Obj\ADC_DMA.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_common.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_ICM20602.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_xbara.o</file>
+            <file>$PROJ_DIR$\release\Obj\xcorr.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Rtwdog.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_ICM20602.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_pwm.xcl</file>
+            <file>$PROJ_DIR$\release\Exe\IMXRT1052.out</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SDCard.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_common.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpuart.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_PWM.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_qtmr.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpi2c.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_gpio.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_LED.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_event.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\release\Obj\Ultrasonic.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\serial_port_uart.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_ICM20602.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_debug_console.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_csi_camera_adapter.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_12864SPI.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\RDA5807.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_host.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpuart.o</file>
+            <file>$PROJ_DIR$\release\Obj\pid.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_GPT.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\clock_config.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Tempmon.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ffsystem.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_gpt.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_UART_DMA.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_IIC.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_flexspi_nor_boot.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_UART.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_assert.o</file>
+            <file>$PROJ_DIR$\release\Obj\ICM20602_SOFTSPI.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_edma.o</file>
+            <file>$PROJ_DIR$\..\User\Motor.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_host.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_GPIO.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_WDog.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\system_MIMXRT1052.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Exe\IMXRT1052.hex</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SDCard.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_GPIO.o</file>
+            <file>$PROJ_DIR$\release\List\IMXRT1052.map</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpuart_edma.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SPI.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\pid.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_common.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_common.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_cache.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ffsystem.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_LED.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_str.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_FLASH.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_PWM.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_usdhc.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_IIC.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_adc.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\CMSIS\Include\core_cm7.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_flexspi_nor_boot.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\lpuart_adapter.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\serial_port_uart.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\irq.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\Motor.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\lpuart_adapter.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_event.xcl</file>
+            <file>$PROJ_DIR$\..\User\RDA5807.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$PROJ_DIR$\release\Obj\xip_config.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_GPIO.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SYSTICK.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpuart.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ffunicode.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_QTMR.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpspi.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_trng.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_pit.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_TRNG.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_pit.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sd_disk.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_ADC.o</file>
+            <file>$PROJ_DIR$\release\Obj\pin_mux.o</file>
+            <file>$PROJ_DIR$\release\Obj\board.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Tempmon.o</file>
+            <file>$PROJ_DIR$\release\Obj\xcorr.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_KEY.xcl</file>
+            <file>$PROJ_DIR$\..\User\xcorr.c</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_dmamux.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sd.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\main.o</file>
+            <file>$PROJ_DIR$\release\Obj\MIDI.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\clock_config.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_adc_etc.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\Chan_tdoa.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_gpt.o</file>
+            <file>$PROJ_DIR$\release\Obj\MIDI.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\release\Obj\Mic.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sccb.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_xbarb.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\pin_mux.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_edma.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SYSTICK.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_dmamux.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpuart_edma.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_QTMR.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_qtmr.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_wdog.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\Motor.xcl</file>
+            <file>$PROJ_DIR$\..\User\Mic.c</file>
+            <file>$PROJ_DIR$\release\Obj\ff.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_tempmon.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\serial_manager.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_debug_console.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SDCard.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_UART_DMA.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ICM20602_SOFTSPI.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\Mic.__cstat.et</file>
+            <file>$PROJ_DIR$\..\User\pid.c</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_12864SPI.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_wdog.o</file>
+            <file>$PROJ_DIR$\release\Obj\system_MIMXRT1052.o</file>
+            <file>$PROJ_DIR$\release\Obj\xip_config.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_pwm.o</file>
+            <file>$PROJ_DIR$\..\..\..\Device\MIMXRT1052.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_KEY.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SOFTIIC.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\release\Obj\GP2Y0A.o</file>
+            <file>$PROJ_DIR$\release\Obj\GP2Y0A.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\Ultrasonic.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sd.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\serial_manager.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ffsystem.o</file>
+            <file>$PROJ_DIR$\..\..\..\Device\board\board.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\board\pin_mux.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc_etc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc_etc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\board\clock_config.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\board\pin_mux.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_cache.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\board\clock_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\board\board.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_flexspi.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpt.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_csi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_edma.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_cache.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_csi.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_dmamux.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_enc.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_dmamux.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_flexspi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpt.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_iomuxc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_clock.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_edma.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_enc.h</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_camera_receiver.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_common.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_KEY.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SYSTICK.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_xbarb.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_pit.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\Matrix.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_trng.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_clock.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ffunicode.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_flexspi.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SOFTIIC.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\clock_config.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpi2c.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_UART.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_adc.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_enc.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Encoder.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sccb.o</file>
+            <file>$PROJ_DIR$\..\..\..\Device\MIMXRT1052_features.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_rtwdog.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_WDog.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_enc.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_assert.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_csi.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\Chan_tdoa.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_wdog.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_enc.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_PWM.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ANO_DT.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_GPT.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_W25Q128.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_rtwdog.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SPI.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_semc.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_UART_DMA.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_event.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\diskio.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_WDog.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SOFTIIC.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_FLASH.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_assert.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_ADC.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SGP18T.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_ADC.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ANO_DT.o</file>
+            <file>$PROJ_DIR$\release\Obj\RDA5807.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sccb.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_12864SPI.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_common.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_csi_camera_adapter.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Encoder.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Tempmon.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_QTMR.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\board.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_gpt.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_rtwdog.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ADC_DMA.o</file>
+            <file>$PROJ_DIR$\LQ_RT1052QSPI_Boot.icf</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpuart_edma.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_csi_camera_adapter.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\diskio.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\serial_manager.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_csi.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_dmamux.o</file>
+            <file>$PROJ_DIR$\release\Obj\Chan_tdoa.xcl</file>
+            <file>$PROJ_DIR$\..\User\Matrix.c</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_PIT.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_trng.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_clock.o</file>
+            <file>$PROJ_DIR$\release\Obj\system_MIMXRT1052.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_FLASH.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_GPT.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_IIC.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_xbarb.o</file>
+            <file>$PROJ_DIR$\..\User\Chan_tdoa.c</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_usdhc.o</file>
+            <file>$PROJ_DIR$\release\Obj\startup_MIMXRT1052_iar.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_flexspi.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ANO_DT.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_xbara.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_W25Q128.o</file>
+            <file>$PROJ_DIR$\release\Obj\ffunicode.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Encoder.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\ff.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_str.__cstat.et</file>
+            <file>$PROJ_DIR$\..\User\Ultrasonic.c</file>
+            <file>$PROJ_DIR$\release\Obj\IMXRT1052.pbd</file>
+            <file>$PROJ_DIR$\release\Obj\lpuart_adapter.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sd_disk.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_tempmon.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpspi.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\pin_mux.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\release\Obj\xip_config.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ICM20602_SOFTSPI.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_PIT.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_TRNG.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_adc_etc.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_PIT.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpspi.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\ADC_DMA.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_debug_console.o</file>
+            <file>$PROJ_DIR$\release\Obj\irq.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_tempmon.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_usdhc.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Rtwdog.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_SPI.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sdmmc_host.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\serial_port_uart.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_csi.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_Rtwdog.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\release\Obj\board.o</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_adc_etc.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_TRNG.__cstat.et</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_lpi2c.xcl</file>
+            <file>$PROJ_DIR$\release\Obj\fsl_sd.o</file>
+            <file>$PROJ_DIR$\release\Obj\LQ_LED.xcl</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 154 205</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Encoder.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 361</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 432</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 396</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 27 7 341 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 13 100 102 105 331 307 38 20 388 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_LED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 468</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331 307 321 13 26 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PIT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 448</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 415</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 445</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 7 14 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_FLASH.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 385</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 420</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 313 203 201 194 272 159 165 292 139 290 222 169 442 397 357 187 145 97 363 312 233 294 462 401 180 417 332 100 102 105 307 310 331 81 31 112 218 166 200 104 301 321 309 305 319 314 54 329 342 322 315 325 334 341 330 335 337 339 52 34 50 35 37 51 55 53 61 60 38 32 26 7 6 17 20 10 27 11 2 0 21 13 14 18 92 72 87 84 68 74 82 65 69 76 85 120 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_12864SPI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 393</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 285</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331 307 321 13 21 20 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ICM20602_SOFTSPI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 444</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 282</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 17 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 26 331 307 321</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_KEY.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 291</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 344</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 250</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331 307 321 13 21 26 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_PWM.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 373</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 18 7 50 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 100 102 105 331 307 13 20 21 388 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\ANO_DT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 390</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 428</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 374</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 76 52 339 334 104 13 166 200 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\fsl_sd_disk\fsl_sd_disk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 244</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 438</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 233 201 194 272 159 165 218 292 462 401 29 169 40 23 83 77 312 294 180 417 203 139 290 222 442 397 357 187 145 97 363 332 79 301 310 321 61 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPIO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 234</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331 307 321 26 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ADC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 389</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 387</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 218 201 194 272 159 165 292 166 200 180 417 139 290 222 169 442 397 357 187 145 97 363 100 312 233 294 462 401 203 332 102 105 104 301 310 321 307 309 305 319 314 54 329 342 322 315 325 334 341 313 330 331 335 337 339 52 34 50 35 37 51 55 53 61 60 38 32 26 7 6 17 20 10 27 31 11 2 0 21 13 14 18 92 72 87 84 68 74 82 65 69 76 81 85 120 125 388</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_ICM20602.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 218 201 194 272 159 165 292 100 312 233 294 169 462 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 102 105 2 20 388 13 17 7 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_GPT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 375</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 421</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 290 222 169 201 194 272 159 165 442 397 357 187 145 97 363 100 312 233 294 462 292 401 180 417 203 332 102 105 330 11 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_IIC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 422</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331 307 0 7 335</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\diskio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 382</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 409</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 40 23 29 169 201 194 272 159 165 83 77 312 233 294 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 79 301 310 321 61 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_usdhc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 425</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 455</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_sccb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 362</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 263</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 392</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 51 335</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 276</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 433</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 23 109 40 364</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_tempmon.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 454</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 439</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 277</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ffsystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 300</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 23 109</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_qtmr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbarb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 423</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 264</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 346</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart_edma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 206</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 269</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 406</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 339 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 334</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\fatfs\source\ffunicode.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 431</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 351</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 23 109</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 241</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 347</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_trng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 416</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 349</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 289</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_wdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 286</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 273</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 371</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_rtwdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 377</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 403</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 365</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_xbara.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 429</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\src\fsl_sd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 467</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 253</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 298</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83 77 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 79 301 310 321 61 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SPI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 457</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 378</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 7 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 337 331 307</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sd\fsl_sdmmc_host.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 458</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 301 310 321 61 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SDCard.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 280</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218 201 194 272 159 165 292 462 401 83 77 312 233 294 169 180 417 203 139 290 222 442 397 357 187 145 97 363 332 79 301 310 321 61 108 100 102 105 47 23 109 40 29 87 307 331</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SYSTICK.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 345</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 13 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_QTMR.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 399</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 270</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 35 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 13 20 388 92 7 100 102 105 331 307 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Tempmon.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 398</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 102 105 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sd\fsl_sdmmc_event.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 381</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART_DMA.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 380</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 281</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 290 222 169 201 194 272 159 165 442 397 357 187 145 97 363 100 312 233 294 462 292 401 180 417 203 332 102 105 7 331 307 321 339 301 310 218 334 325 52 69 13 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_Rtwdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 461</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 456</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 37 100 102 105 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_SOFTIIC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 293</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 353</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 384</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84 7 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_TRNG.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 465</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 290 222 169 201 194 272 159 165 442 397 357 187 145 97 363 100 312 233 294 462 292 401 180 417 203 332 102 105 53 65 13 388 20 104 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_W25Q128.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 430</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 376</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 313 203 201 194 272 159 165 292 139 290 222 169 442 397 357 187 145 97 363 312 233 294 462 401 180 417 332 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_WDog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 383</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 366</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 102 105 60 85 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\LQRT1052\LQ_UART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 358</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 290 222 169 201 194 272 159 165 442 397 357 187 145 97 363 100 312 233 294 462 292 401 180 417 203 332 102 105 7 331 307 321 339 301 310 218 69 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\fatfs\sdmmc\src\fsl_sdmmc_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 343</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 79 301 310 321 61 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\ADC_DMA.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 404</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 450</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120 112 218 201 194 272 159 165 292 166 200 180 417 139 290 222 169 442 397 357 187 145 97 363 100 312 233 294 462 401 203 332 102 105 104 301 310 321 307 309 305 319 314 54 329 342 322 315 325 334 341 313 330 331 335 337 339 52 34 50 35 37 51 55 53 61 60 38 32 26 7 6 17 20 10 27 31 11 2 0 21 13 14 18 92 72 87 84 68 74 82 65 69 76 81 85 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\GP2Y0A.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 295</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 296</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 112 218 201 194 272 159 165 292 166 200 180 417 139 290 222 169 442 397 357 187 145 97 363 100 312 233 294 462 401 203 332 102 105 104 301 310 321 307 309 305 319 314 54 329 342 322 315 325 334 341 313 330 331 335 337 339 52 34 50 35 37 51 55 53 61 60 38 32 26 7 6 17 20 10 27 31 11 2 0 21 13 14 18 92 72 87 84 68 74 82 65 69 76 81 85 120</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\startup\iar\startup_MIMXRT1052_iar.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 426</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\utilities\serial_port_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 459</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 102 105 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 434</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166 201 194 272 159 165 200 364 180 292 417 121 312 233 294 169 462 401 203 139 290 222 442 397 357 187 145 97 363 332 113</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\system_MIMXRT1052.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 287</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 419</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169 201 194 272 159 165 139 290 222 442 397 357 187 145 97 363 379 312 233 294 462 292 401 180 417 203 332 331 307</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_debug_console.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 451</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 279</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 364 180 201 194 272 159 165 292 417 113 121 312 233 294 169 462 401 203 139 290 222 442 397 357 187 145 97 363 332 102 105 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 407</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 453</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 218 201 194 272 159 165 292 166 200 180 417 139 290 222 169 442 397 357 187 145 97 363 100 312 233 294 462 401 203 332 102 105 104 301 310 321 307 309 305 319 314 54 329 342 322 315 325 334 341 313 330 331 335 337 339 52 34 50 35 37 51 55 53 61 60 38 32 26 7 6 17 20 10 27 31 11 2 0 21 13 14 18 92 72 87 84 68 74 82 65 69 76 81 85 120 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\utilities\lpuart_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 437</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 339 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\utilities\serial_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 278</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 299</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 410</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 102 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 452</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 218 201 194 272 159 165 292 166 200 180 417 139 290 222 169 442 397 357 187 145 97 363 100 312 233 294 462 401 203 332 102 105 104 301 310 321 307 309 305 319 314 54 329 342 322 315 325 334 341 313 330 331 335 337 339 52 34 50 35 37 51 55 53 61 60 38 32 26 7 6 17 20 10 27 31 11 2 0 21 13 14 18 92 72 87 84 68 74 82 65 69 76 81 85 120 125 79</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\utilities\fsl_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 386</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 368</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 100 102 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\xip\fsl_flexspi_nor_boot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122 169 201 194 272 159 165 301 310 312 233 294 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 321</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\MIDI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\xip\xip_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 288</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 443</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107 169 201 194 272 159 165 294 312 233 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\release\Exe\IMXRT1052.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 405 404 390 463 354 382 276 300 431 359 447 190 132 418 209 460 172 451 412 192 360 352 136 130 259 161 239 176 206 243 289 160 377 362 467 244 156 164 175 214 454 240 425 286 149 423 295 444 128 437 393 245 361 385 204 375 170 185 291 213 448 217 238 461 280 293 457 235 248 242 137 380 430 383 254 260 246 278 459 426 287 288 261 231 186</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\Motor.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 274</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\RDA5807.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 391</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\xcorr.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 249</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\Mic.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 283</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 262</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\pid.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\board\pin_mux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 441</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331 307</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 309 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_adc_etc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 447</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 464</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 305 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\board\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 354</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 179</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 256</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 310 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 331</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 463</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 400</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 100 102 105 301 310 321 331</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 259</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 402</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 330 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_csi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 460</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 411</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 369</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 322 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_edma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 266</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 355</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 321 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 418</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 350</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 332 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\camera\fsl_csi_camera_adapter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 395</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 408</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 314 54 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332 342 322 315</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_enc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 360</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 367</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 372</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 341 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_dmamux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 412</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 252</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 268</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_flexspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 352</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 427</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 313 203 201 194 272 159 165 292 139 290 222 169 442 397 357 187 145 97 363 312 233 294 462 401 180 417 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpi2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 356</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 466</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 335 203 201 194 272 159 165 292 139 290 222 169 442 397 357 187 145 97 363 312 233 294 462 401 180 417 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 440</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 449</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 337 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 339 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\Device\drivers\MIMXRT1052\fsl_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 394</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 233 201 194 272 159 165 294 169 462 292 401 180 417 203 139 290 222 442 397 357 187 145 97 363 332</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\Matrix.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 348</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\Chan_tdoa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 370</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 258</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 413</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\User\Ultrasonic.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 297</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>

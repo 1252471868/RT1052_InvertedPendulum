@@ -1,0 +1,115 @@
+#Generating source browse information for project IMXRT1052
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build board.pbi : index board.xcl
+build clock_config.pbi : index clock_config.xcl
+build pin_mux.pbi : index pin_mux.xcl
+build fsl_adc.pbi : index fsl_adc.xcl
+build fsl_adc_etc.pbi : index fsl_adc_etc.xcl
+build fsl_cache.pbi : index fsl_cache.xcl
+build fsl_clock.pbi : index fsl_clock.xcl
+build fsl_common.pbi : index fsl_common.xcl
+build fsl_csi.pbi : index fsl_csi.xcl
+build fsl_csi_camera_adapter.pbi : index fsl_csi_camera_adapter.xcl
+build fsl_dmamux.pbi : index fsl_dmamux.xcl
+build fsl_edma.pbi : index fsl_edma.xcl
+build fsl_enc.pbi : index fsl_enc.xcl
+build fsl_flexspi.pbi : index fsl_flexspi.xcl
+build fsl_gpio.pbi : index fsl_gpio.xcl
+build fsl_gpt.pbi : index fsl_gpt.xcl
+build fsl_lpi2c.pbi : index fsl_lpi2c.xcl
+build fsl_lpspi.pbi : index fsl_lpspi.xcl
+build fsl_lpuart.pbi : index fsl_lpuart.xcl
+build fsl_lpuart_edma.pbi : index fsl_lpuart_edma.xcl
+build fsl_pit.pbi : index fsl_pit.xcl
+build fsl_pwm.pbi : index fsl_pwm.xcl
+build fsl_qtmr.pbi : index fsl_qtmr.xcl
+build fsl_rtwdog.pbi : index fsl_rtwdog.xcl
+build fsl_sccb.pbi : index fsl_sccb.xcl
+build fsl_tempmon.pbi : index fsl_tempmon.xcl
+build fsl_trng.pbi : index fsl_trng.xcl
+build fsl_usdhc.pbi : index fsl_usdhc.xcl
+build fsl_wdog.pbi : index fsl_wdog.xcl
+build fsl_xbara.pbi : index fsl_xbara.xcl
+build fsl_xbarb.pbi : index fsl_xbarb.xcl
+build diskio.pbi : index diskio.xcl
+build ff.pbi : index ff.xcl
+build ffsystem.pbi : index ffsystem.xcl
+build ffunicode.pbi : index ffunicode.xcl
+build fsl_sd_disk.pbi : index fsl_sd_disk.xcl
+build ANO_DT.pbi : index ANO_DT.xcl
+build ICM20602_SOFTSPI.pbi : index ICM20602_SOFTSPI.xcl
+build LQ_12864SPI.pbi : index LQ_12864SPI.xcl
+build LQ_ADC.pbi : index LQ_ADC.xcl
+build LQ_Encoder.pbi : index LQ_Encoder.xcl
+build LQ_FLASH.pbi : index LQ_FLASH.xcl
+build LQ_GPIO.pbi : index LQ_GPIO.xcl
+build LQ_GPT.pbi : index LQ_GPT.xcl
+build LQ_ICM20602.pbi : index LQ_ICM20602.xcl
+build LQ_IIC.pbi : index LQ_IIC.xcl
+build LQ_KEY.pbi : index LQ_KEY.xcl
+build LQ_LED.pbi : index LQ_LED.xcl
+build LQ_PIT.pbi : index LQ_PIT.xcl
+build LQ_PWM.pbi : index LQ_PWM.xcl
+build LQ_QTMR.pbi : index LQ_QTMR.xcl
+build LQ_Rtwdog.pbi : index LQ_Rtwdog.xcl
+build LQ_SDCard.pbi : index LQ_SDCard.xcl
+build LQ_SOFTIIC.pbi : index LQ_SOFTIIC.xcl
+build LQ_SPI.pbi : index LQ_SPI.xcl
+build LQ_SYSTICK.pbi : index LQ_SYSTICK.xcl
+build LQ_Tempmon.pbi : index LQ_Tempmon.xcl
+build LQ_TRNG.pbi : index LQ_TRNG.xcl
+build LQ_UART.pbi : index LQ_UART.xcl
+build LQ_UART_DMA.pbi : index LQ_UART_DMA.xcl
+build LQ_W25Q128.pbi : index LQ_W25Q128.xcl
+build LQ_WDog.pbi : index LQ_WDog.xcl
+build fsl_sd.pbi : index fsl_sd.xcl
+build fsl_sdmmc_common.pbi : index fsl_sdmmc_common.xcl
+build fsl_sdmmc_event.pbi : index fsl_sdmmc_event.xcl
+build fsl_sdmmc_host.pbi : index fsl_sdmmc_host.xcl
+build irq.pbi : index irq.xcl
+build main.pbi : index main.xcl
+build system_MIMXRT1052.pbi : index system_MIMXRT1052.xcl
+build ADC_DMA.pbi : index ADC_DMA.xcl
+build GP2Y0A.pbi : index GP2Y0A.xcl
+build MIDI.pbi : index MIDI.xcl
+build fsl_assert.pbi : index fsl_assert.xcl
+build fsl_debug_console.pbi : index fsl_debug_console.xcl
+build fsl_str.pbi : index fsl_str.xcl
+build lpuart_adapter.pbi : index lpuart_adapter.xcl
+build serial_manager.pbi : index serial_manager.xcl
+build serial_port_uart.pbi : index serial_port_uart.xcl
+build fsl_flexspi_nor_boot.pbi : index fsl_flexspi_nor_boot.xcl
+build xip_config.pbi : index xip_config.xcl
+build IMXRT1052_part0.pbi : link board.pbi clock_config.pbi pin_mux.pbi fsl_adc.pbi fsl_adc_etc.pbi fsl_cache.pbi fsl_clock.pbi fsl_common.pbi fsl_csi.pbi
+build IMXRT1052_part1.pbi : link fsl_csi_camera_adapter.pbi fsl_dmamux.pbi fsl_edma.pbi fsl_enc.pbi fsl_flexspi.pbi fsl_gpio.pbi fsl_gpt.pbi fsl_lpi2c.pbi fsl_lpspi.pbi
+build IMXRT1052_part2.pbi : link fsl_lpuart.pbi fsl_lpuart_edma.pbi fsl_pit.pbi fsl_pwm.pbi fsl_qtmr.pbi fsl_rtwdog.pbi fsl_sccb.pbi fsl_tempmon.pbi fsl_trng.pbi
+build IMXRT1052_part3.pbi : link fsl_usdhc.pbi fsl_wdog.pbi fsl_xbara.pbi fsl_xbarb.pbi diskio.pbi ff.pbi ffsystem.pbi ffunicode.pbi fsl_sd_disk.pbi
+build IMXRT1052_part4.pbi : link ANO_DT.pbi ICM20602_SOFTSPI.pbi LQ_12864SPI.pbi LQ_ADC.pbi LQ_Encoder.pbi LQ_FLASH.pbi LQ_GPIO.pbi LQ_GPT.pbi LQ_ICM20602.pbi
+build IMXRT1052_part5.pbi : link LQ_IIC.pbi LQ_KEY.pbi LQ_LED.pbi LQ_PIT.pbi LQ_PWM.pbi LQ_QTMR.pbi LQ_Rtwdog.pbi LQ_SDCard.pbi LQ_SOFTIIC.pbi
+build IMXRT1052_part6.pbi : link LQ_SPI.pbi LQ_SYSTICK.pbi LQ_Tempmon.pbi LQ_TRNG.pbi LQ_UART.pbi LQ_UART_DMA.pbi LQ_W25Q128.pbi LQ_WDog.pbi fsl_sd.pbi
+build IMXRT1052_part7.pbi : link fsl_sdmmc_common.pbi fsl_sdmmc_event.pbi fsl_sdmmc_host.pbi irq.pbi main.pbi system_MIMXRT1052.pbi ADC_DMA.pbi GP2Y0A.pbi MIDI.pbi
+build IMXRT1052_part8.pbi : link fsl_assert.pbi fsl_debug_console.pbi fsl_str.pbi lpuart_adapter.pbi serial_manager.pbi serial_port_uart.pbi fsl_flexspi_nor_boot.pbi xip_config.pbi
+build IMXRT1052.pbd : link IMXRT1052_part0.pbi IMXRT1052_part1.pbi IMXRT1052_part2.pbi IMXRT1052_part3.pbi IMXRT1052_part4.pbi IMXRT1052_part5.pbi IMXRT1052_part6.pbi IMXRT1052_part7.pbi IMXRT1052_part8.pbi
+build IMXRT1052.pbw : browsedata IMXRT1052.pbd
+
+

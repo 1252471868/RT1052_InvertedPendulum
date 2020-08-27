@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armjlink2.dll" 
+
+"E:\code\RT1052_InvertedPendulum\Example\example\iar\release\Exe\IMXRT1052.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\NXP\iMXRT.dmac" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\NXP\iMXRT_Trace.dmac" 
+
+--flash_loader="E:\code\RT1052_InvertedPendulum\Example\example\iar\LQ_RT1052SYS.board" 
+
+
+
+

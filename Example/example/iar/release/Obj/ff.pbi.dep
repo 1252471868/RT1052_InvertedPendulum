@@ -1,0 +1,6 @@
+ff.pbi: E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source\ff.c \
+  E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source/ff.h \
+  E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source/integer.h \
+  E:\code\RT1052_InvertedPendulum\Example\example\iar\..\sd\ffconf.h \
+  E:\code\RT1052_InvertedPendulum\Device\fatfs\fatfs\source/diskio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdarg.h
